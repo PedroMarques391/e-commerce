@@ -12,7 +12,7 @@ export function render() {
     }
     const productCard = `
       <div class='border-solid shadow-xl shadow-slate-400 rounded-lg w-[137px] md:w-48 m-2 flex flex-col p-2 justify-between group ${products.apple ? 'apple' : 'xiaomi'} ' id="cardProduto${products.id}">
-          <img src="../assets/img/${products.imagem}.jpg" alt="${products.nome} da Marques Magazine"
+          <img src="./assets/img/${products.imagem}.jpg" alt="${products.nome} da Marques Magazine"
           class='h-40 w-auto md:h-44 md:w-auto group-hover:scale-110 duration-300 my-3 rounded-lg'
           >
           <p class='text-sm'>${products.marca}</p>
